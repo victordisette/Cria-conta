@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { FormInput } from './FormInput';
 import { SocialLoginButtons } from './SocialLoginButtons';
@@ -69,7 +70,7 @@ export const SignupForm: React.FC = () => {
   const passwordIcon = "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M418.207 698.274H416.328C415.454 698.274 414.821 697.45 415.04 696.609L415.639 694.339C415.25 693.924 415.034 693.377 415.034 692.809C415.034 691.554 416.072 690.532 417.356 690.581C418.452 690.623 419.368 691.477 419.487 692.566C419.555 693.217 419.338 693.863 418.895 694.335L419.494 696.609C419.714 697.45 419.076 698.274 418.207 698.274Z\" fill=\"#277C30\" transform=\"scale(0.6) translate(-410, -690)\"></path></svg>";
 
   return (
-    <main className="flex-1 lg:w-[60%] xl:w-[55%] 2xl:w-[50%] flex flex-col items-center justify-center px-6 md:px-8 lg:px-12 py-8 lg:py-0">
+    <main className="w-full h-full min-h-screen flex flex-col items-center justify-center px-6 md:px-8 lg:px-12 py-8 lg:py-0">
       <div className="w-full max-w-[590px]">
         <header className="text-[#277C30] text-[28px] md:text-[36px] lg:text-[40px] xl:text-[45px] font-semibold text-center lg:text-left mb-8 lg:mb-12">
           Crie sua Conta

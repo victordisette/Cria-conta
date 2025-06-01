@@ -6,8 +6,12 @@ import { WelcomePanel } from '@/components/WelcomePanel';
 export default function Index() {
   return (
     <div className="w-full min-h-screen bg-white flex flex-col lg:flex-row">
-      <SignupForm />
-      <WelcomePanel />
+      <div className="lg:w-1/2">
+        <SignupForm />
+      </div>
+      <div className="lg:w-1/2">
+        <WelcomePanel />
+      </div>
     </div>
   );
 }
