@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 export const WelcomePanel: React.FC = () => {
@@ -7,7 +6,8 @@ export const WelcomePanel: React.FC = () => {
   };
 
   return (
-    <aside className="lg:w-[40%] xl:w-[45%] 2xl:w-[50%] bg-[#277C30] flex flex-col items-center justify-center text-white px-8 py-12 lg:py-0 order-first lg:order-last min-h-[300px] lg:min-h-screen">
+    <aside className="lg:w-[40%] xl:w-[45%] 2xl:w-[50%] bg-[#277C30] flex flex-col items-center justify-center text-white px-8 py-12 lg:py-0 min-h-[300px] lg:min-h-screen">
+      
       <div className="text-center">
         <h1 className="text-[40px] md:text-[48px] lg:text-[56px] xl:text-[64px] font-bold mb-8 lg:mb-16">
           Olá, Startup!
